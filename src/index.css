@@ -1,29 +1,18 @@
 @import "tailwindcss";
 
 * {
-
-    
-        font-family: "Abel", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      
-      
-
-
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .titleFont {
-
-font-family: "Lobster", sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-
-@theme{
---color-grisClaro: #1f1f1f;
---color-rojoBotones: #d0021b;
-
-
-  }
-  
+@theme {
+  --color-grisClaro: #1f1f1f;
+  --color-rojoBotones: #d0021b;
+}
