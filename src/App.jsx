@@ -1,7 +1,8 @@
 
+import React from 'react'
 
-import React from "react";
-import BarraDeFiltros from "./components/BarraDeFiltros";
+import HomePage from './pages/HomePage'
+
 
 
 export default function App() {
@@ -9,7 +10,11 @@ export default function App() {
   return (
     <>
 
-      <BarraDeFiltros />
+
+      <HomePage/>
+
+
+
     </>
   );
 

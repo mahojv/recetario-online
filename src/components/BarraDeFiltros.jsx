@@ -26,7 +26,9 @@ export default function BarraDeFiltros() {
           </div>
 
           {/* Botón de búsqueda */}
-          <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors">
+
+          <button className="bg-rojoBotones text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors">
+
             Buscar
           </button>
         </div>
