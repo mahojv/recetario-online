@@ -10,7 +10,7 @@ const RecipeCard = ({ meal }) => {
         className="w-full h-48 object-cover"
       />
       <div className="p-4">
-        <h3 className="text-lg font-medium text-gray-800 text-center">{meal.strMeal}</h3>
+        <h3 className="text-lg font-medium text-center">{meal.strMeal}</h3>
       </div>
     </div>
   );
