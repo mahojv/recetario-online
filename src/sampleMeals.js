@@ -2,7 +2,9 @@ const sampleMeals = [
     {
       idMeal: "52771",
       strMeal: "Spicy Arrabiata Penne",
-      strMealThumb: "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+      strMealThumb: "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg",
+      strYoutube: "https://www.youtube.com/watch?v=1IszT_guI08",
+      strInstructions: "Instrucciones detalladas para preparar esta receta...",
     },
     {
       idMeal: "52772",
