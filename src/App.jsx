@@ -1,11 +1,14 @@
 import React from 'react'
-import CategoryBar from './components/CategoryBar'
+
+import HomePage from './pages/HomePage'
 
 
 export default function App() {
 
   return (
     <>
+
+      <HomePage/>
 
 
     </>
