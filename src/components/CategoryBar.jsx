@@ -1,5 +1,5 @@
 import React from 'react'
-import placeholder from '../images/placeholder.jpg';
+// import placeholder from './placeholder.jpg';
 
 
 export default function CategoryBar() {
@@ -14,7 +14,7 @@ export default function CategoryBar() {
         transition-all duration-300 hover:translate-y-1 hover:shadow-md 
         active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" className='object-cover' />
+            <img src="./placeholder.jpg" alt="Imagen" className='object-cover' />
           </div>
           <h2>Category Name</h2>
         </div>
@@ -22,7 +22,7 @@ export default function CategoryBar() {
         
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
@@ -30,7 +30,7 @@ export default function CategoryBar() {
         
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
@@ -38,7 +38,7 @@ export default function CategoryBar() {
        
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
@@ -46,7 +46,7 @@ export default function CategoryBar() {
         
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
@@ -54,7 +54,7 @@ export default function CategoryBar() {
         
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
@@ -62,7 +62,7 @@ export default function CategoryBar() {
         
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
@@ -70,7 +70,7 @@ export default function CategoryBar() {
         
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
@@ -78,7 +78,7 @@ export default function CategoryBar() {
         
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
@@ -86,35 +86,35 @@ export default function CategoryBar() {
        
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
 
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
 
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
 
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imageno" />
+            <img src="./placeholder.jpg" alt="Imageno" />
           </div>
           <h2>Category Name</h2>
         </div>
 
         <div className="w-24 shrink-0 h-30 bg-white text-[var(--color-rojoBotones)] shadow-[6px_6px_10px_rgba(180,180,180,0.1)] border border-gray-800 ring-1 ring-gray-500 rounded-md flex flex-col items-center justify-center transition-all duration-300 hover:translate-y-1 hover:shadow-md active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" />
+            <img src="./placeholder.jpg" alt="Imagen" />
           </div>
           <h2>Category Name</h2>
         </div>
