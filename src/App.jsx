@@ -5,7 +5,7 @@ import Preparacion from "./components/Preparacion";
 export default function App() {
   return (
     <>
-      <Preparacion />
+     
     </>
   );
 }
