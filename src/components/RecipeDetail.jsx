@@ -49,7 +49,7 @@ const RecipeDetail = ({ recipe }) => {
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   );
 };
 
