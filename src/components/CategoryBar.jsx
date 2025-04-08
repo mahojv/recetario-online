@@ -14,7 +14,7 @@ export default function CategoryBar() {
         transition-all duration-300 hover:translate-y-1 hover:shadow-md 
         active:translate-y-1 active:shadow-md px-5">
           <div className="w-15 h-15 overflow-hidden mt-2">
-            <img src={placeholder} alt="Imagen" className='object-cover' />
+            <img src="/placeholder.jpg" alt="Imagen" className='object-cover' />
           </div>
           <h2>Category Name</h2>
         </div>
