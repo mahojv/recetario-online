@@ -1,13 +1,16 @@
-import React from 'react'
-import CategoryBar from './components/CategoryBar'
+
+import React from "react";
+import BarraDeFiltros from "./components/BarraDeFiltros";
+
 
 export default function App() {
 
   return (
     <>
-   
-    </>
 
-  )
+      <BarraDeFiltros />
+    </>
+  );
+
 }
 
