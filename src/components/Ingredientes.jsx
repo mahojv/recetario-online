@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Ingredientes() {
   return (
-   <section className='border border-[#474747] w-1/2 m-5 p-4 max-w-[500px] '>
+   <section className='border border-[#474747] md:w-1/2 m-5 p-4 max-w-[700px] '>
    
         <h2 className='flex justify-left space-x-1 gap-2 text-[#474747] underline tracking-wider p-4 mt-3 text-2xl'><img src="https://www.gourmet.cl/wp-content/themes/gourmet/img/icons/sombrero.png" alt="gormet" className='h-7 '/>I N  G R E D I E N T E S</h2>
         <div>
