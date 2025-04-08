@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
+import BarraDeFiltros from "./components/BarraDeFiltros";
 
 export default function App() {
   return (
-    <div>
-     
-     
-      
-    </div>
-  )
+    <>
+      <BarraDeFiltros />
+    </>
+  );
 }
