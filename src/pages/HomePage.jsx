@@ -7,7 +7,7 @@ export default function HomePage() {
     return (
         <>
 
-            <HeaderBar />
+      
 
             <div>
                 <figure className>
@@ -21,6 +21,10 @@ export default function HomePage() {
 
                 <BarraDeFiltros />
                 <div className=''>
+                    
+                    {/* <RecipesContainer/> */}
+
+                    
 
 
                 </div>
