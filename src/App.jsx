@@ -1,15 +1,24 @@
 
 import React from 'react'
 
-import RecipePage from './pages/RecipePage'
+
+
+import HomePage from './pages/HomePage'
+
+
 
 
 export default function App() {
   return (
     <>
 
-   
-   <RecipePage/>
+
+
+
+      <HomePage/>
+
+
+
 
     </>
   );
