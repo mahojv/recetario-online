@@ -1,15 +1,26 @@
+
 import React from 'react'
-import CategoryBar from './components/CategoryBar'
-import Footer from './components/Footer'
+
+
+import HomePage from './pages/HomePage'
+
+
 
 export default function App() {
 
   return (
     <>
-   
-   
-    </>
 
-  )
+
+
+      <HomePage/>
+
+
+
+
+    </>
+  );
+
 }
+
 
