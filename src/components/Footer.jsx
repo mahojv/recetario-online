@@ -10,7 +10,7 @@ export default function Footer() {
             <li className='px-3  '><a target='blank' href="https://miguelangelfuentesalvis.github.io/mp-miguel-fuentes/" className=' hover:text-[var(--color-rojoBotones)]'>Miguel Fuentes</a></li>
             <li className='px-3  '><a target='blank' href="https://eldersound.github.io/proyecto-1/" className='hover:text-[var(--color-rojoBotones)]'>Elder Cuases</a></li>
             <li className='px-3  '><a target='blank' href="https://mahojv.github.io/Portafolio-Web-para-Desarrollador-Frontend/" className='hover:text-[var(--color-rojoBotones)]'>Moises Javier</a></li>
-            <li className='px-3  '><a target='blank' href="" className='hover:text-[var(--color-rojoBotones)]'>Luis Portugal</a></li>
+            <li className='px-3  '><a target='blank' href="https://lfernandoportugal.github.io/portafolio_tw/" className='hover:text-[var(--color-rojoBotones)]'>Luis Portugal</a></li>
         </ul>
         <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
             stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
