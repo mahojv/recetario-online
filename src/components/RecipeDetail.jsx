@@ -4,7 +4,7 @@ export const RecipeDetail = ({ recipe }) => {
   const youtubeId = recipe.strYoutube ? recipe.strYoutube.split('v=')[1] : 'hiUDb8_AEG8';
 
   return (
-    <div className="max-w-6xl mx-auto p-4 bg-white rounded-lg shadow-md">
+    <div className="max-w-6xl mx-auto p-4 bg-white  px-auto ">
       <div className="flex flex-col md:flex-row gap-6">
         <div className="w-full md:w-1/2">
           <div className="aspect-w-16 aspect-h-9 overflow-hidden rounded-lg shadow-lg">
