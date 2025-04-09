@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RecipeCard = ({ meal }) => {
+export const RecipeCard = ({ meal }) => {
   return (
     <div className="relative bg-white rounded-lg shadow-md overflow-hidden group transition-transform duration-300 hover:shadow-xl">
       {/* Imagen de la receta */}

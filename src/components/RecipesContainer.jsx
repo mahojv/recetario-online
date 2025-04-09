@@ -1,8 +1,8 @@
 import React from "react";
-import RecipeCard from "./RecipeCard";
+import { RecipeCard } from "./RecipeCard";
 
 // Componente contenedor
-const RecipesContainer = ({ meals }) => {
+export const RecipesContainer = ({ meals }) => {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="bg-grisClaro text-white titleFont p-4 shadow-md">
