@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RecipeDetail = ({ recipe }) => {
+export const RecipeDetail = ({ recipe }) => {
   const youtubeId = recipe.strYoutube ? recipe.strYoutube.split('v=')[1] : 'hiUDb8_AEG8';
 
   return (

@@ -1,4 +1,4 @@
-const sampleMeals = [
+export const sampleMeals = [
     {
       idMeal: "52771",
       strMeal: "Spicy Arrabiata Penne",
