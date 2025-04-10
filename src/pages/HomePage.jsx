@@ -2,8 +2,12 @@ import React from 'react'
 import CategoryBar from '../components/CategoryBar'
 import HeaderBar from '../components/HeaderBar'
 import BarraDeFiltros from '../components/BarraDeFiltros'
+import RecipesContainer from '../components/RecipesContainer'
+import { sampleMeals } from '../sampleMeals'
 
 export default function HomePage() {
+    const meals = sampleMeals;
+
     return (
         <>
 
@@ -25,6 +29,9 @@ export default function HomePage() {
                     {/* <RecipesContainer/> */}
 
                     
+
+                    <RecipesContainer meals={meals} />
+
 
 
                 </div>
