@@ -11,7 +11,7 @@ export default function HomePage() {
     return (
         <>
 
-            <HeaderBar />
+           
 
             <div>
                 <figure className>
