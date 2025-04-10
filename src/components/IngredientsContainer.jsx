@@ -2,6 +2,7 @@ import React from 'react';
 import Ingredientes from './Ingredientes';
 import Preparacion from './Preparacion';
 
+
 export default function IngredientsContainer({ recipe, ingredientes, medidas }) {
   // console.log(medidas)
   return (
@@ -22,6 +23,7 @@ export default function IngredientsContainer({ recipe, ingredientes, medidas }) 
            />
       </div>
     </section>
+
 
   )
 }

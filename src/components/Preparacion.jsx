@@ -1,4 +1,5 @@
 import React from "react";
+
 import RecipeInstruction from "./RecipeInstruction";
 
 export default function Preparacion({ recipe }) {
@@ -14,6 +15,7 @@ export default function Preparacion({ recipe }) {
 
 
   
+
   return (
     <section className="border border-[#474747] md:w-1/2 m-5 p-4 max-w-[700px]">
       <h2 className="flex justify-left space-x-1 gap-2 text-[#474747] underline tracking-wider p-4 mt-3 text-2xl">
@@ -21,6 +23,7 @@ export default function Preparacion({ recipe }) {
           src="https://www.gourmet.cl/wp-content/themes/gourmet/img/icons/cubierto.png"
           className="h-7"
         ></img>
+
         Preparación de {recipe.strMeal}
       </h2>
 
@@ -37,6 +40,7 @@ export default function Preparacion({ recipe }) {
               )
             })
           }
+
 
         </li>
       </ul>

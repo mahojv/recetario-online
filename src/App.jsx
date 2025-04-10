@@ -4,9 +4,10 @@ import React from 'react'
 
 
 import HomePage from './pages/HomePage'
-import HeaderBar from './components/HeaderBar';
-import Footer from './components/Footer';
 import RecipePage from './pages/RecipePage';
+
+
+
 
 
 

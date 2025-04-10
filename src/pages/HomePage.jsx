@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { use, useEffect } from 'react'
 import CategoryBar from '../components/CategoryBar'
 import HeaderBar from '../components/HeaderBar'
 import BarraDeFiltros from '../components/BarraDeFiltros'
 import RecipesContainer from '../components/RecipesContainer'
-import { sampleMeals } from '../sampleMeals'
+
+// import sampleMeals from '../sampleMeals'
+import setData from '../hooks/setData'
 
 export default function HomePage() {
-    const meals = sampleMeals;
+    // const meals = sampleMeals;
+    const { loading, error, response } = setData('https://www.themealdb.com/api/json/v1/1/search.php?s=');
+
+
 
     return (
         <>
@@ -25,12 +30,12 @@ export default function HomePage() {
 
                 <BarraDeFiltros />
                 <div className=''>
-                    
-                    {/* <RecipesContainer/> */}
 
-                    
+                    {/* {loading && <p>Cargando recetas...</p>}
+                    {error && <p className="text-red-500">Error: {error}.</p>} */}
 
-                    <RecipesContainer meals={meals} />
+                    <RecipesContainer meals={response?.meals} />
+
 
 
 

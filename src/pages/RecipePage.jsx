@@ -2,6 +2,7 @@ import React from 'react'
 import IngredientsContainer from '../components/IngredientsContainer'
 import {RecipeDetail} from '../components/RecipeDetail'
 import {sampleMeals} from '../sampleMeals';
+
 import useData from "../hooks/setData";
 
 //Se requiere enviar el string de la receta dentro del arrar de la categoria proyectada para modificar el contenido
@@ -44,12 +45,14 @@ export default function RecipePage({}) {
   // console.log(medidas)
 
 
+
   return (
     <>
     <main className='my-15'>
 
           <section >
                  
+
               <RecipeDetail
               key={apiMeals.idMeal}
                recipe={apiMeals}
@@ -64,6 +67,7 @@ export default function RecipePage({}) {
               medidas={medidas}
               
               />
+
     </main>
      
     </>
