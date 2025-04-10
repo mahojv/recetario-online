@@ -1,32 +1,26 @@
 
-import React from 'react'
-
-
-
-import HomePage from './pages/HomePage'
-import RecipePage from './pages/RecipePage';
-
-
-
-
+import React from "react";
+import RecipePage from "./pages/RecipePage";
+import HomePage from "./pages/HomePage";
+import { Routes, Route, Link } from "react-router";
+import HeaderBar from "./components/HeaderBar";
+import CategoryBar from "./components/CategoryBar";
 
 
 export default function App() {
   return (
     <>
 
-    <HeaderBar/>
+      <HeaderBar />
+     
 
-<div className='flex flex-col grow'>
-
-
-      <RecipePage/>
-
-</div>
-      
-      <Footer/>
-
-
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/categorias" element={<CategoryBar />} />
+        <Route path="/receta" element={<RecipePage />} />
+       
+       
+      </Routes>
 
     </>
   );
