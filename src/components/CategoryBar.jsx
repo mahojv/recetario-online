@@ -1,9 +1,8 @@
 import React from "react";
 import CategoryItem from "./CategoryItem";
 import setData from "../hooks/setData";
-// import placeholder from './placeholder.jpg';
 
-export default function CategoryBar() {
+export default function CategoryBar({ setFilter }) {
   const { loading, error, response } = setData(
     "https://www.themealdb.com/api/json/v1/1/categories.php"
   );
@@ -18,7 +17,7 @@ export default function CategoryBar() {
           {error && <p className="text-red-500">Error al cargar categorías</p>}
 
           {categories.map((category) => (
-            <CategoryItem key={category.idCategory} category={category} />
+            <CategoryItem key={category.idCategory} category={category} setFilter={setFilter} />
           ))}
         </div>
       </div>

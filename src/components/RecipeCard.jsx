@@ -24,7 +24,7 @@ export const RecipeCard = ({ meal }) => {
         </p>
         <Link to={`/receta/${meal.strMeal}`}>
         {/* Botón */}
-        <button className="px-4 py-2 bg-rojoBotones text-white rounded-md  hover:bg-red-500 transition-colors duration-200">
+        <button className="px-4 py-2 bg-rojoBotones text-white rounded-md  hover:bg-red-500 transition-colors duration-200 cursor-pointer">
           Ver Receta
         </button>
         </Link>

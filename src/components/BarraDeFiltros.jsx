@@ -1,6 +1,11 @@
 import React from "react";
+import setData from "../hooks/setData";
 
 export default function BarraDeFiltros() {
+  const { loading, error, response } = setData(
+    `https://www.themealdb.com/api/json/v1/1/categories.php`
+  );
+  console.log(response);
   return (
     <div className="max-w-4xl mx-auto px-4 py-4">
       <div className="bg-white rounded-lg shadow-md p-4">
@@ -18,17 +23,23 @@ export default function BarraDeFiltros() {
               className="w-full p-2 border border-gray-300 rounded-md"
             >
               <option value="">Todas las categorías</option>
-              <option value="Beef">Carne de res</option>
-              <option value="Dessert">Postres</option>
-              <option value="Vegetarian">Vegetariano</option>
-              <option value="Seafood">Mariscos</option>
+              {response?.categories?.map((category) => {
+                return (
+                  <option
+                    key={category.idCategory}
+                    value={category.strCategory}  
+                  >
+                    {" "}
+                    {category.strCategory}
+                  </option>
+                );
+              })}
             </select>
           </div>
 
           {/* Botón de búsqueda */}
 
           <button className="bg-rojoBotones text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors">
-
             Buscar
           </button>
         </div>
