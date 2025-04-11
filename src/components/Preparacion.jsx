@@ -3,11 +3,10 @@ import React from "react";
 import RecipeInstruction from "./RecipeInstruction";
 
 export default function Preparacion({ recipe }) {
-  console.log(recipe)
+ 
   // {recipe.strInstructions}
   let instRecipe = recipe.strInstructions.split(".")  || [];
-  console.log(instRecipe)
-  console.log(instRecipe[-1])
+ 
 
   if (instRecipe.at(-1)?.trim() === "") {
     instRecipe = instRecipe.slice(0, -1);
@@ -28,7 +27,7 @@ export default function Preparacion({ recipe }) {
       </h2>
 
       <ul className='text-[#474747] p-4 mt-0 list-disc ml-3'>
-        <li className=''>
+        
           {
             instRecipe.map((inst) => {
 
@@ -41,8 +40,6 @@ export default function Preparacion({ recipe }) {
             })
           }
 
-
-        </li>
       </ul>
     </section>
   );

@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export const RecipeCard = ({ meal }) => {
   return (
+    
     <div className="relative bg-white rounded-lg shadow-md overflow-hidden group transition-transform duration-300 hover:shadow-xl">
       {/* Imagen de la receta */}
       <img 
@@ -16,17 +18,20 @@ export const RecipeCard = ({ meal }) => {
       </div>
       
       {/* Overlay que aparece en hover */}
-      <div className="absolute inset-0 bg-grisClaro flex flex-col items-center justify-center opacity-0 group-hover:opacity-70 transition-opacity duration-300 p-4">
+      <div className="absolute inset-0 bg-grisClaro/30 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
         <p className="text-white text-sm mb-4 line-clamp-3">
           {meal.strInstructions?.substring(0, 100) || 'Deliciosa receta para preparar en casa...'}
         </p>
-        
+        <Link to={`/receta/${meal.strMeal}`}>
         {/* Botón */}
-        <button className="px-4 py-2 bg-rojoBotones text-white rounded-md hover:bg-red-600 transition-colors duration-200">
+        <button className="px-4 py-2 bg-rojoBotones text-white rounded-md  hover:bg-red-500 transition-colors duration-200">
           Ver Receta
         </button>
+        </Link>
+        
       </div>
     </div>
+   
   );
 };
 

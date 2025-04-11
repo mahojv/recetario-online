@@ -4,7 +4,7 @@ import Preparacion from './Preparacion';
 
 
 export default function IngredientsContainer({ recipe, ingredientes, medidas }) {
-  // console.log(medidas)
+  console.log({ingredientes, medidas})
   return (
 
 
@@ -22,6 +22,7 @@ export default function IngredientsContainer({ recipe, ingredientes, medidas }) 
           
            />
       </div>
+      
     </section>
 
 

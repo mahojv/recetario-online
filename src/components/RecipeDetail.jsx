@@ -3,7 +3,7 @@ import VideoComponent from './VideoComponent';
 
 export const RecipeDetail = ({ recipe }) => {
   const youtubeId = recipe.strYoutube ? recipe.strYoutube.split('v=')[1] : 'hiUDb8_AEG8';
-  console.log(recipe)
+  
 
   const [videoToggle, setVideoToggle] = useState(false)
   function toggleVideo(e) {
