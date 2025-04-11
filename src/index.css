@@ -16,3 +16,15 @@
   --color-grisClaro: #1f1f1f;
   --color-rojoBotones: #d0021b;
 }
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+} 
+.scroll-hidden {
+  scrollbar-width: none;  
+}

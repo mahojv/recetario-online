@@ -3,11 +3,6 @@ import Ingrediente from './ingrediente'
 
 export default function Ingredientes({ recipe, ingredientes, medidas }) {
 
-  // console.log(ingredientes)
-
-
-
-
 
 
   return (
@@ -19,24 +14,24 @@ export default function Ingredientes({ recipe, ingredientes, medidas }) {
 
 
           {medidas.map((medida, i) => {
-             
-         
-            
+
+
+
+
             let ingrediente = ingredientes[i]
-            // console.log(ingrediente)
 
 
             return (
               <Ingrediente
-              key={i}
-              medida = {medida}
-              index = {i}
-              ingrediente= {ingrediente}
-              
+                key={i}
+                medida={medida}
+                index={i}
+                ingrediente={ingrediente}
+
               />
             )
 
-            
+
           })}
 
 

@@ -12,8 +12,8 @@ export default function CategoryBar() {
 
   return (
     <section className="m-5">
-      <div className="flex justify-center items-center max-w-[1200px] mx-auto bg-[var(--color-grisClaro)] py-1 px-4 rounded-md">
-        <div className="w-full h-full py-4 overflow-x-auto inline-flex gap-3 font-bold ">
+      <div className="flex justify-center items-center max-w-[1200px] mx-auto bg-[var(--color-grisClaro)] py-1 px-4 rounded-md ">
+        <div className="w-full h-full py-4 overflow-x-auto inline-flex gap-3 font-bold scroll-hidden">
           {loading && <p>Cargando categorías...</p>}
           {error && <p className="text-red-500">Error al cargar categorías</p>}
 
