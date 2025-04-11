@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Ingrediente from './ingrediente'
+import Ingrediente from './Ingrediente'
 
 export default function Ingredientes({ recipe, ingredientes, medidas }) {
 
