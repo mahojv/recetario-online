@@ -1,12 +1,11 @@
 import React from 'react'
 import IngredientsContainer from '../components/IngredientsContainer'
 import { RecipeDetail } from '../components/RecipeDetail'
-import { sampleMeals } from '../sampleMeals';
+
 
 import useData from "../hooks/setData";
 import { useParams } from 'react-router';
-import Ingredientes from '../components/Ingredientes';
-import Ingrediente from '../components/ingrediente';
+
 
 //Se requiere enviar el string de la receta dentro del arrar de la categoria proyectada para modificar el contenido
 export default function RecipePage({ }) {
